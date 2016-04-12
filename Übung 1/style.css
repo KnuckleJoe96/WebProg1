@@ -1,12 +1,18 @@
+* {
+  Text-align: Center
+}
 .PersonWithComment{
-Width: 100 px;
+	Width: 100 px;
 }
 header{
-background-color: #FF00FF;
+	background-color: #FF00FF;
 }
 body{
-  margin:0;
-  font-family: 'Open Sans', sans-serif;
+	margin-left: 2.5%;
+	margin-right:2.5%;
+	margin-top:0;
+	width: 95%;
+	font-family: 'Open Sans', sans-serif;
 }
 article header{
 color:blue;
