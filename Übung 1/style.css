@@ -1,0 +1,23 @@
+.PersonWithComment{
+Width: 100 px;
+}
+header{
+background-color: #FF00FF;
+}
+body{
+  margin:0;
+  font-family: 'Open Sans', sans-serif;
+}
+article header{
+color:blue;
+  font-size: 26px;
+}
+article:nth-child(2n){
+  background-color: #FFAAAA;
+}
+article:nth-child(2n+1){
+  background-color: #BBFFBB;
+}
+header{
+  font-size: 30px;
+}
