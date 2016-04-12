@@ -16,7 +16,7 @@ article:nth-child(2n){
   background-color: #FFAAAA;
 }
 article:nth-child(2n+1){
-  background-color: #BBFFBB;
+  background-color: #CCFFCC;
 }
 header{
   font-size: 30px;
