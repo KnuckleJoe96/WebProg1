@@ -1,4 +1,4 @@
-﻿
+
 .PersonWithComment{
 	width: 170px;
     height: auto;
@@ -9,6 +9,15 @@
     padding-bottom: 15px;
     background-color: white;
 }
+
+.PersonWithComment:hover{
+    background-color: #9fb9d1;
+}
+
+.PersonWithComment:hover .job {
+   color: #394046;
+}
+
 .PersonWithComment img{
     width: 100%; // Bild soll genau so breit wie div sein
     filter: grayscale(30%);
@@ -28,16 +37,18 @@ body{
 article{
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: #f5faff;
 }
 
 article:nth-child(2n){
-    background-color: #f8fcfe;
+    background-color: #ebf5ff;
+    /* background-image: url(img/BG2.png); */
 }
 
 header{
     font-size: 26px;
     font-weight: bold;
-    color: #394046;
+    color: #374857;
     margin-bottom: 50px;
 }
 
@@ -89,4 +100,37 @@ ul, li
     color: #999999;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+#bottom{
+    background-color: #374857;
+    color: #c5ced6;
+}
+
+.subjects{
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #4a6275;
+}
+
+.hochschulLogo{
+    max-height: 200px;
+    max-width: 200px;
+    float: left;
+}
+
+.hochschulLogo img{
+    width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.hochschulLogo img:hover{
+      filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
 }
