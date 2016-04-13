@@ -118,16 +118,24 @@ ul, li
     background-color: #4a6275;
 }
 
+.Zeile{
+    clear: left;
+}
 .hochschulLogo{
-    max-height: 200px;
-    max-width: 200px;
+    height: 100px;
+    line-height: 100px;
     float: left;
+    margin: 20px;
+    width: 200px;
 }
 
 .hochschulLogo img{
-    width: 100%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    max-width: 200px;
+    max-height: 100px;
+    filter: grayscale(50%);
+    -webkit-filter: grayscale(50%);
+    vertical-align: middle;
+    
 }
 
 .hochschulLogo img:hover{
