@@ -1,16 +1,23 @@
+#team > section > a {
+    width: 170px;
+    height: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    display: inline-block;
+    vertical-align: text-top;
+    text-decoration: none;
+}
 
-.PersonWithComment{
+.PersonWithComment {
 	width: 170px;
     height: auto;
     text-align: center;
-    float: left;
-    margin-left: 25px;
-    margin-right: 25px;
     padding-bottom: 15px;
     background-color: white;
 }
 
-.PersonWithComment:hover{
+.PersonWithComment:hover {
     background-color: #9fb9d1;
 }
 
@@ -18,48 +25,48 @@
    color: #394046;
 }
 
-.PersonWithComment img{
+.PersonWithComment img {
     width: 100%; // Bild soll genau so breit wie div sein
-    filter: grayscale(30%);
-    -webkit-filter: grayscale(30%);
+    filter: grayscale(50%);
+    -webkit-filter: grayscale(50%);
 }
-.PersonWithComment img:hover{
+.PersonWithComment img:hover {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
 }
 
-body{
+body {
 	margin: 0;
 	font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
 
-article{
+article {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #f5faff;
 }
 
-article:nth-child(2n){
+article:nth-child(2n) {
     background-color: #ebf5ff;
     /* background-image: url(img/BG2.png); */
 }
 
-header{
+header {
     font-size: 26px;
     font-weight: bold;
     color: #374857;
     margin-bottom: 50px;
 }
 
-section{
+section {
     /*max-width: 1000px;
     margin-left: auto;
     margin-right: auto;*/
     padding-bottom: 20px;
 }
 
-.center-left{
+.center-left {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -68,8 +75,9 @@ section{
     text-align: left;
 }
 
-.center{
+.center {
     display: inline-block; // Wird als Text betrachtet und Text ist bei uns immer zentriert
+    margin: auto;
 }
 
 /* Manche Browser fügen bei ul automatisch ein Padding ein (warum auch immer) */
@@ -79,13 +87,13 @@ ul, li
     margin: 0;
 }
 
-.reverse{
+.reverse {
     color: #ffffff;
     background-color: #333333;
     padding: 10px;
 }
 
-.name{
+.name {
     font-size: 14px;
     font-weight: bold;
     padding-top: 6px;
@@ -95,41 +103,37 @@ ul, li
     padding-right: 10px;
 }
 
-.job{
+.job {
     font-size: 12px;
     color: #999999;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-#bottom{
+footer {
     background-color: #374857;
     color: #c5ced6;
 }
 
-.subjects{
+.subjects {
     display: inline-block;
-    float: left;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 10px;
     background-color: #4a6275;
 }
 
-.Zeile{
-    clear: left;
-}
-.hochschulLogo{
+.hochschulLogo {
     height: 100px;
     line-height: 100px;
-    float: left;
+    display: inline-block;
     margin: 20px;
     width: 200px;
 }
 
-.hochschulLogo img{
+.hochschulLogo img {
     max-width: 200px;
     max-height: 100px;
     filter: grayscale(50%);
@@ -138,13 +142,13 @@ ul, li
     
 }
 
-.hochschulLogo img:hover{
-      filter: grayscale(0%);
+.hochschulLogo img:hover {
+    filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
 }
 
-.textblock{
-    float: left;
+.textblock {
+    display: inline-block;
     padding: 15px;
     margin-left: 20px;
     margin-right: 20px;
@@ -154,10 +158,10 @@ ul, li
     color: #ffffff;
 }
 
-.textblock-top{
+.textblock-top {
     background-color: #95AEC0;
 }
 
-.textblock-bottom{
+.textblock-bottom {
     background-color: #b1cde0;
 }
