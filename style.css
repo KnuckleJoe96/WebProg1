@@ -94,7 +94,7 @@ header#main div {
 }
 
 .PicturesWithComment > div > img {
-    max-height: 116;
+    max-height: 116px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
