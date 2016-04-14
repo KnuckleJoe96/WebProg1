@@ -35,6 +35,17 @@
     -webkit-filter: grayscale(0%);
 }
 
+.clicker {
+	float: left;
+	margin: 25px;
+}
+
+.numbers {
+	font-size: 64px;
+	color: #BBBBBB;
+	margin-bottom: 15px;
+}
+
 body {
 	margin: 0;
 	font-family: 'Ubuntu', sans-serif;
@@ -165,3 +176,4 @@ footer {
 .textblock-bottom {
     background-color: #b1cde0;
 }
+
