@@ -87,7 +87,9 @@
 }
 
 body {
-	margin: 0;
+	background-image: url(img/BG2.png);
+    background-repeat:  repeat;
+    margin: 0;
 	font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
@@ -95,12 +97,10 @@ body {
 article {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #f5faff;
 }
 
 article:nth-child(2n) {
-    background-color: #ebf5ff;
-    /* background-image: url(img/BG2.png); */
+    background-color: rgba(230, 240, 255, 0.6);
 }
 
 header {
@@ -131,7 +131,7 @@ section {
     margin: auto;
 }
 
-/* Manche Browser fügen bei ul automatisch ein Padding ein (warum auch immer) */
+/* Manche Browser fÃ¼gen bei ul automatisch ein Padding ein (warum auch immer) */
 ul, li
 {
     padding: 0;
@@ -216,4 +216,3 @@ footer {
 .textblock-bottom {
     background-color: #b1cde0;
 }
-
