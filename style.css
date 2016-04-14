@@ -1,3 +1,16 @@
+header#main img {
+    height: 70px;
+}
+
+header#main > h1 {
+    font-size: inherit;
+    margin: 0;
+}
+
+header#main div {
+    padding: 10px;
+}
+
 #team > section > a {
     width: 170px;
     height: auto;
@@ -104,6 +117,7 @@ article:nth-child(2n) {
 }
 
 header {
+    width: 100%;
     font-size: 26px;
     font-weight: bold;
     color: #374857;
@@ -131,7 +145,7 @@ section {
     margin: auto;
 }
 
-/* Manche Browser fÃ¼gen bei ul automatisch ein Padding ein (warum auch immer) */
+/* Manche Browser fÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼gen bei ul automatisch ein Padding ein (warum auch immer) */
 ul, li
 {
     padding: 0;
