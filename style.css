@@ -9,6 +9,21 @@
     text-decoration: none;
 }
 
+#team > div > div {
+    width: 280px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: auto;
+    margin-bottom: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+#team > section {
+    display: inline-block;
+}
+
 .PersonWithComment {
 	width: 170px;
     height: auto;
@@ -30,9 +45,45 @@
     filter: grayscale(50%);
     -webkit-filter: grayscale(50%);
 }
+
 .PersonWithComment img:hover {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
+}
+
+.clicker {
+	float: left;
+    display: inline-block;
+	margin: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #394046;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.clicker > img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.numbers {
+	font-size: 64px;
+	color: #BBBBBB;
+	margin-bottom: 15px;
+}
+
+.PicturesWithComment > div > img {
+    max-height: 116;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 body {
@@ -165,3 +216,4 @@ footer {
 .textblock-bottom {
     background-color: #b1cde0;
 }
+
