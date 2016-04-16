@@ -46,14 +46,29 @@ header#main div {
 }
 
 #MandM {
-    display: block;
+    display: inline;
 }
 
 #MandM > div {
-    display: block;
+    display: inline-block;
+    vertical-align: text-top;
+    text-align: left;
+    width: 220px;
+    margin: 40px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+
+    font-size: 20px;
+    line-height: 1.5;
     color: #394046;
-    width: 200px;
-    background-color: black;
+
+    background-color: white;
+}
+
+#MandM > div > ul {
+    list-style: circle;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .PersonWithComment {
@@ -121,6 +136,10 @@ header#main div {
     margin: 5px;
     display: inline-block;
     vertical-align: text-top;
+}
+
+#pictures > img {
+    height: 150px;
 }
 
 body {
