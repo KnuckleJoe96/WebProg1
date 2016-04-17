@@ -288,9 +288,9 @@ footer {
     margin-top: 48px;
 }
 .firsttry > ul > li{
-	  display: block;
+	  display: inline;
 	  text-align:left;
-	  margin-left:35%;
+	  margin:auto;
 }
 .firsttry > div{
 	height:100px;	
