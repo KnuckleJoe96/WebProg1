@@ -1,4 +1,4 @@
-header#main img {
+﻿header#main img {
     height: 70px;
 }
 
@@ -290,11 +290,17 @@ footer {
 .firsttry > ul > li{
 	  display: block;
 	  text-align:left;
-	  margin-left:35%;
 }
 .firsttry > div{
-	height:100px;	
+    margin: auto;
+	height:50px;	
 }
 .firsttry > div img{
-	min-height:100px;
+	height:50px;
+}
+
+.firsttry {
+    width: 450px;
+    display: inline-block;
+    text-align: center;
 }
