@@ -24,7 +24,7 @@ header#main div {
 
 #team > section > div {
     width: auto;
-    height: 320px;
+    height: auto;
     margin-left: 20px;
     margin-right: auto;
     margin-bottom: 30px;
@@ -43,6 +43,7 @@ header#main div {
 
 #team > section {
     display: inline-block;
+	height:auto;
 }
 
 #MandM {
@@ -72,8 +73,6 @@ header#main div {
 }
 
 .PersonWithComment {
-	width: 170px;
-    height: 300px;
     text-align: center;
     padding-bottom: 15px;
     background-color: white;
@@ -84,7 +83,8 @@ header#main div {
 
 .PersonWithComment:hover {
     background-color: #9fb9d1;
-	width:250px;
+	-webkit-transform: scale(1.3,1.3);
+	transform: scale(1.3,1.3);
 }
 
 .PersonWithComment:hover .job {
@@ -93,13 +93,13 @@ header#main div {
 
 .PersonWithComment img {
     width: 100%; // Bild soll genau so breit wie div sein
-    filter: grayscale(50%);
     -webkit-filter: grayscale(50%);
+	    filter: grayscale(0%);
 }
 
 .PersonWithComment img:hover {
-    filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
+	    filter: grayscale(0%);
 }
 
 .clicker {
@@ -282,4 +282,15 @@ footer {
     width: 50%;
     height: 50%;
     margin-top: 48px;
+}
+.firsttry > ul > li{
+	  display: block;
+	  text-align:left;
+	  margin-left:35%;
+}
+.firsttry > div{
+	height:100px;	
+}
+.firsttry > div img{
+	min-height:100px;
 }
