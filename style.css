@@ -77,10 +77,14 @@ header#main div {
     text-align: center;
     padding-bottom: 15px;
     background-color: white;
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+          transition: all 1s ease;
 }
 
 .PersonWithComment:hover {
     background-color: #9fb9d1;
+	width:250px;
 }
 
 .PersonWithComment:hover .job {
