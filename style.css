@@ -1,4 +1,4 @@
-header#main img {
+﻿header#main img {
     height: 70px;
 }
 
@@ -22,31 +22,72 @@ header#main div {
     text-decoration: none;
 }
 
-#team > div > div {
-    width: 280px;
-    margin-right: 20px;
+#team > section > div {
+    width: auto;
+    height: 320px;
     margin-left: 20px;
-    height: auto;
-    margin-bottom: 15px;
+    margin-right: auto;
+    margin-bottom: 30px;
     display: inline-block;
-    vertical-align: middle;
-    text-decoration: none;
+    vertical-align: text-top;
+    background-color: #FFFFFF;
+}
+
+#team > section > div:hover {
+    background-color: #9fb9d1;
+}
+
+#team > div > div {
+
 }
 
 #team > section {
     display: inline-block;
+	height:auto;
+}
+
+#MandM {
+    display: inline;
+	width:100%;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+#MandM > div {
+    display: inline-block;
+    vertical-align: text-top;
+    text-align: left;
+    width: 250px;
+    margin: 40px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+	
+    font-size: 20px;
+    line-height: 1.5;
+    color: #394046;
+
+    background-color: #9fb9d1;
+}
+
+#MandM > div > ul {
+    list-style: circle;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .PersonWithComment {
-	width: 170px;
-    height: auto;
     text-align: center;
     padding-bottom: 15px;
     background-color: white;
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+          transition: all 1s ease;
 }
 
 .PersonWithComment:hover {
     background-color: #9fb9d1;
+	-webkit-transform: scale(1.3,1.3);
+	transform: scale(1.3,1.3);
 }
 
 .PersonWithComment:hover .job {
@@ -55,19 +96,16 @@ header#main div {
 
 .PersonWithComment img {
     width: 100%; // Bild soll genau so breit wie div sein
-    filter: grayscale(50%);
     -webkit-filter: grayscale(50%);
+	    filter: grayscale(0%);
 }
 
 .PersonWithComment img:hover {
-    filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
+	    filter: grayscale(0%);
 }
 
 .clicker {
-	float: left;
-    display: inline-block;
-	margin: 25px;
     font-size: 14px;
     font-weight: bold;
     padding-top: 6px;
@@ -75,6 +113,7 @@ header#main div {
     color: #394046;
     padding-left: 10px;
     padding-right: 10px;
+	height:100%;
 }
 
 .clicker > img {
@@ -89,14 +128,26 @@ header#main div {
 
 .numbers {
 	font-size: 64px;
-	color: #BBBBBB;
+	color: #CCCCCC;
 	margin-bottom: 15px;
 }
 
 .PicturesWithComment > div > img {
-    max-height: 116;
+    max-height: 116px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.PicturesWithComment > div {
+    width: auto;
+    height: auto;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+#pictures > img {
+    height: 150px;
 }
 
 body {
@@ -113,7 +164,7 @@ article {
 }
 
 article:nth-child(2n) {
-    background-color: rgba(230, 240, 255, 0.6);
+    background-color: rgba(230, 240, 255, 1);
 }
 
 header {
@@ -229,4 +280,27 @@ footer {
 
 .textblock-bottom {
     background-color: #b1cde0;
+}
+
+#arrow {
+    width: 50%;
+    height: 50%;
+    margin-top: 48px;
+}
+.firsttry > ul > li{
+	  display: block;
+	  text-align:left;
+}
+.firsttry > div{
+    margin: auto;
+	height:50px;	
+}
+.firsttry > div img{
+	height:50px;
+}
+
+.firsttry {
+    width: 450px;
+    display: inline-block;
+    text-align: center;
 }
